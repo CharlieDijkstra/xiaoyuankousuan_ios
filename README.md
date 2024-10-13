@@ -19,11 +19,11 @@ https?:\/\/leo\.fbcontent\.cn\/bh5\/leo-web-oral-pk\/exercise[^\/]+\.js
 ```
 https://cdn.jsdelivr.net/gh/CharlieDijkstra/xiaoyuankousuan_ios@refs/heads/main/exercise_iphone.js
 ```
-## 方法二：使用脚本，以shadowrocket为例，(主要代理工具应该都支持)
+## 方法二：使用脚本，以shadowrocket为例，(主流代理工具应该都支持)
 - 类型：http-response
 - 脚本路径：https://raw.githubusercontent.com/CharlieDijkstra/xiaoyuankousuan_ios/refs/heads/main/xiaoyuankousuan.js
 - 需要Body：开启
 - 启用脚本：开启
   
-## 配置截图
+## 方法一配置截图
  ![屏幕截图](https://github.com/CharlieDijkstra/xiaoyuankousuan_ios/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BEloon.jpg?raw=true)
