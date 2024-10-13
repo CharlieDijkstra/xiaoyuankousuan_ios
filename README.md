@@ -4,7 +4,7 @@
 - 答题过程与[xiaoyuankousuan](https://github.com/wyp010428/xiaoyuankousuan)一致，答题过程任意输入都算对。
 ## 前置条件：拥有loon或圈x等代理工具
 - 参考 [Ulua3809](https://github.com/ulua3809)、[cr4n5](https://github.com/cr4n5/XiaoYuanKouSuan)和[xiaoyuankousuan](https://github.com/wyp010428/xiaoyuankousuan) 
-## 步骤：以Loon为例，其他软件类似
+## 方法一：使用重写/复写，以Loon为例，(圈x和loon支持)
 复写类型：response-body-replace-regex
 
 用以匹配的URL：
@@ -17,6 +17,13 @@ https?:\/\/leo\.fbcontent\.cn\/bh5\/leo-web-oral-pk\/exercise[^\/]+\.js
 ```
 替换：
 ```
-https://cdn.jsdelivr.net/gh/CharlieDijkstra/xiaoyuankousuan_ios@refs/heads/main/exercise_new.js
+https://cdn.jsdelivr.net/gh/CharlieDijkstra/xiaoyuankousuan_ios@refs/heads/main/exercise_iphone.js
 ```
-![屏幕截图](https://github.com/CharlieDijkstra/xiaoyuankousuan_ios/blob/main/loon.jpg?raw=true)
+## 方法二：使用脚本，以shadowrocket为例，(主要代理工具应该都支持)
+- 类型：http-response
+- 脚本路径：https://raw.githubusercontent.com/CharlieDijkstra/xiaoyuankousuan_ios/refs/heads/main/xiaoyuankousuan.js
+- 需要Body：开启
+- 启用脚本：开启
+  
+## 配置截图
+ ![屏幕截图](https://github.com/CharlieDijkstra/xiaoyuankousuan_ios/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BEloon.jpg?raw=true)
