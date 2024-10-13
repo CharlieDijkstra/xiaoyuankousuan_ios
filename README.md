@@ -23,7 +23,10 @@ https://cdn.jsdelivr.net/gh/CharlieDijkstra/xiaoyuankousuan_ios@refs/heads/main/
 - 脚本路径：https://raw.githubusercontent.com/CharlieDijkstra/xiaoyuankousuan_ios/refs/heads/main/xiaoyuankousuan.js
 - 需要Body：开启
 - 启用脚本：开启
-  
+
+## 已知问题 2024.10.13 19：00
+官方更新了js文件，正式pk前的加载UI会显示异常
+
 ## 方法一配置截图
  ![屏幕截图](https://github.com/CharlieDijkstra/xiaoyuankousuan_ios/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BEloon.jpg?raw=true)
 
