@@ -1,6 +1,4 @@
 const scriptName = "小猿口算pk";
-console.log('this is a test log')
-// 检查请求 URL 是否符合匹配条件
 
 // 解析响应体内容
 let responseBody = $response.body;
