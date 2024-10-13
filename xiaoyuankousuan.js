@@ -10,5 +10,5 @@ responseBody = responseBody.replace(/https?:\/\/leo\.fbcontent\.cn\/bh5\/leo-web
 
 // 返回修改后的响应体
 $response.body = responseBody;
-    
-}
+
+$done($response)
