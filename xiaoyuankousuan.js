@@ -1,5 +1,5 @@
 const scriptName = "小猿口算pk";
-console.log('this is a log')
+console.log('this is a test log')
 // 检查请求 URL 是否符合匹配条件
 if (/^https?:\/\/xyks\.yuanfudao\.com\/bh5\/leo-web-oral-pk\/exercise.+/.test($request.url)) {
     try {
