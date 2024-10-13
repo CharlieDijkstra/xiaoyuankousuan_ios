@@ -16,7 +16,7 @@ https?:\/\/leo\.fbcontent\.cn\/bh5\/leo-web-oral-pk\/exercise[^\/]+\.js
 ```
 替换：
 ```
-https://cdn.jsdelivr.net/gh/CharlieDijkstra/xiaoyuankousuan_ios@refs/heads/main/exercise_iphone.js
+https://cdn.jsdelivr.net/gh/CharlieDijkstra/xiaoyuankousuan_ios@refs/heads/main/exercise_new.js
 ```
 ## 方法二：使用脚本，以shadowrocket为例，(主流代理工具应该都支持)
 - 类型：http-response
