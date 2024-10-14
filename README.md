@@ -1,6 +1,6 @@
 # xiaoyuankousuan_ios
-小猿口算pk ios脚本 超简单实现，不需要电脑！安卓应该也同样适用
-## 2024.10.12 17：00 可用
+小猿口算pk ios脚本 超简单实现，不需要电脑！
+## 2024.10.15 06：40 不要更新app！！低版本可用，但答题过程会白板，更新后的app无法提交答案
 - 答题过程与[xiaoyuankousuan](https://github.com/wyp010428/xiaoyuankousuan)一致，答题过程任意输入都算对。
 ## 前置条件：拥有loon、圈x或小火箭等代理工具
 ## 方法一：使用重写/复写，以Loon为例，(圈x和loon支持)
