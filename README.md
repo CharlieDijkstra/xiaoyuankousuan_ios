@@ -18,7 +18,10 @@ https?:\/\/leo\.fbcontent\.cn\/bh5\/leo-web-oral-pk\/exercise[^\/]+\.js
 ```
 https://cdn.jsdelivr.net/gh/CharlieDijkstra/xiaoyuankousuan_ios@refs/heads/main/exercise_new.js
 ```
+- 若无效，请检查证书是否信任，mitm和复写是否打开
+
 ## 方法二：使用脚本，以shadowrocket为例，(主流代理工具应该都支持)
+- 需要开启http解密，配置信任证书
 - 类型：http-response
 - 脚本路径：https://raw.githubusercontent.com/CharlieDijkstra/xiaoyuankousuan_ios/refs/heads/main/xiaoyuankousuan.js
 - 需要Body：开启
