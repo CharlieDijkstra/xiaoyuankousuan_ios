@@ -4,7 +4,7 @@
 ## 过去使用过的请更换下面方法中的新链接
 ##  ~~不要更新app！！~~
 ##  ~~2024.10.15 06：40 低版本可用，但答题过程会白板，更新后的app无法提交答案~~
-- 答题过程与[xiaoyuankousuan](https://github.com/wyp010428/xiaoyuankousuan)一致，答题过程任意输入都算对。
+- 答题过程任意输入都算对。
 ## 前置条件：拥有loon、圈x或小火箭等代理工具
 ## 方法一：使用重写/复写，以Loon为例，(圈x和loon支持)
 复写类型：response-body-replace-regex
