@@ -1,0 +1,12 @@
+#!name=小猿口算
+#!desc=pk
+#!system=ios
+
+[General]
+force-http-engine-hosts = %APPEND% xyks.yuanfudao.com
+
+[Script]
+小猿口算pk = type=http-response,requires-body=1,max-size=0, response-body=1, pattern= ^https?:\/\/xyks\.yuanfudao\.com\/bh5\/leo-web-oral-pk\/exercise.+,script-path= https://raw.githubusercontent.com/CharlieDijkstra/xiaoyuankousuan_ios/refs/heads/main/xiaoyuankousuan_new.js
+
+[MITM]
+hostname = %APPEND% xyks.yuanfudao.com
