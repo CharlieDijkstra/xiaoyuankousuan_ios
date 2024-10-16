@@ -1,6 +1,7 @@
 # xiaoyuankousuan_ios
 小猿口算pk ios脚本 超简单实现，不需要电脑！
-## 2024.10.15最新版无法提交答案问题成功解决
+## 2024.10.15 最新版无法提交答案问题成功解决
+## 2024.10.16 解决小火箭无法使用问题
 ## 过去使用过的请更换下面方法中的新链接
 ##  ~~不要更新app！！~~
 ##  ~~2024.10.15 06：40 低版本可用，但答题过程会白板，更新后的app无法提交答案~~
@@ -23,13 +24,12 @@ https://cdn.jsdelivr.net/gh/CharlieDijkstra/xiaoyuankousuan_ios@refs/heads/main/
 ```
 - 若无效，请检查证书是否信任，mitm和复写是否打开
 
-## 方法二：使用脚本，以shadowrocket为例，(主流代理工具应该都支持)
-- 需要开启http解密，配置信任证书
-- 类型：http-response
-- 脚本路径(新版小猿口算)：https://raw.githubusercontent.com/CharlieDijkstra/xiaoyuankousuan_ios/refs/heads/main/xiaoyuankousuan_new.js
-- 需要Body：开启
-- 启用脚本：开启
-
+## 方法二：shadowrocket使用模块
+- 需要开启http解密和信任证书
+- 模块地址：
+```
+https://raw.githubusercontent.com/CharlieDijkstra/xiaoyuankousuan_ios/refs/heads/main/xyks.sgmodule
+```
 ## 方法一配置截图
  ![屏幕截图](https://github.com/CharlieDijkstra/xiaoyuankousuan_ios/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BEloon.jpg?raw=true)
 
